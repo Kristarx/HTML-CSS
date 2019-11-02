@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html lang = "pl">
+
+<head>
+	<meta charset = "utf-8"/>
+	<title>Projekt bieżący</title>
+	<meta name = "description" content = "Przedstawiam projekt balonu stratosferyczego własnego autorstwa. Jest on efektem ciężkiej mozolnej pracy a zarazem pasji czego efektem będzie niesamowite urządzenie do zbierania danych z otoczenia oraz fotografowania" />
+	<meta name = "keywords" content = "balon, lot balonem, balon stratosferyczny, misja balonowa" />
+	<meta http-equiv = "X-UA-Compatible" content = "IE=edge, chrome=1"/>
+	<link rel = "stylesheet" href = "styleOProjekcie.css" type = "text/css" />
+	<link rel = "stylesheet" href = "fontello/fontello-3ba3fbd1/css/fontello.css" type = "text/css" />
+	 
+
+</head>
+
+<body>
+
+		<div id = "container">
+				
+				<div id = "main">
+				
+				
+				<div id = "loga">
+				
+				<img width = 100% height = 100% src = "images/sky_cytat.jpg" class = "center_sky" />
+				
+				
+			</div>			
+			
+			<div id ="menu">
+				<div class = "options"><a href ="index.html" class = "nounderline">Strona główna</a></div>
+				<div class = "options"><a href ="OAutorze.html" class = "nounderline">O Autorze</a></div>
+				<div class = "options"><a href = "Projekt_biezacy.html" class = "nounderline"> Projekt bieżący </a></div>
+				<div class = "options"><a href = "Przyszlosc.html" class = "nounderline">Przyszłość </a></div>
+				<div class = "options"> <a href = "Projekty_zamkniete.html" class = "nounderline">Projekty zamknięte </a></div>
+				<div class = "options"> <a href = "Wazne_informacje.html" class = "nounderline">Ważne informacje </a></div>
+				<div style = "clear:both;"></div>
+				
+			
+			</div>
+				
+						
+						<h1>Krótki wstęp</h1>
+						<p style = "font-size:20px;">W zakładce tej opisuję krok po kroku bieżący projekt, jego realizację, przemyślenia, oczywiście do tego ładna oprawa graficzna w postaci zdjęć robionych na bieżąco :). Sekcję tą zamierzam podzielić na trzy podpunkty, każdy z nich będzie zawierał szczegółowy opis danego etapu, których wyróżniłem trzy: </br></br>
+						<i class = "icon-share"></i>Etap pierwszy – przygotowania, planowanie, zarys lotu, projektowanie</br>
+						<i class = "icon-share"></i>Etap drugi – końcowe składanie całego układu, szczegóły dotyczące organizacji</br>
+						<i class = "icon-share"></i>Etap trzeci – lot oraz końcowe wnioski wraz fotorelacją
+						</br> </br>
+						
+						Tak więc bez zbędnego przedłużania zapraszam do szczegółowego zapoznania się z moimi planami na te wakacje :) </br> </br>
+						</p>
+						<h1>Etap I</h1>
+						
+						<p style = "font-size:20px;">
+						
+						Projektowanie. Zanim powstanie finalny produkt, osoba lub cała grupa osób musi się porządnie natrudzić aby zobaczyć efekty swojej pracy. Efekty te potrafią być naprawdę imponujące a uczucie szczęścia i spełnienia gdy nasz finalny produkt działa zgodnie z zamierzeniami jest wręcz nie do opisania. Również i w tym przypadku trzeba zacząć od zera aby osiągnąć finalny efekt. Przygotowania potrafią czasami ciągnąć się w nieskończoność. Tak samo było i w moim przypadku. W projekcie takim jak ten trzeba uwzględnić wiele zmiennych a czasem i niewiadomych. Można posiłkować się informacjami zdobytymi w internecie ale i tak kroki które się podejmie zależą od Ciebie samego. Tak też i było tutaj. Co powinno znajdować się w ładunku, jakie przyrządy? Jak je umiejscowić? Jak zaprojektować cały ładunek tak by spełniał wszystkie normy? W jaki sposób zapisywać i kontrolować dane? Jest to tylko część przykładów, na które musiałem sobie odpowiedzieć. Był to bardzo ciężki orzech do zgryzienia ale rozwiązując problemy krok po kroku udało mi się przebrnąć przez ten gąszcz pytań i odpowiedzi.
+						</br>
+						</br>
+						Teraz zapewnie u Ciebie drogi czytelniku pojawia się pytanie: ale jak to wszystko ma wyglądać? Już śpieszę z odpowiedzią. Projekt ten ma na celu wyniesienie zestawu czujników zarówno zakupionych przez internet jak i zrobionych na własną rękę. Gwoli ścisłości, czujniki zakupione przez internet 
+						nie są ani trochę gotowe do tego by zbierać dane z otoczenia, to tylko czujniki. Kupujący je musi je oprogramować w taki sposób aby pozyskać z nich dane. Jest to naprawdę ciężki kawałek chleba i trzeba tej operacji poświęcić dużo czasu :). Przechodząc do szczegółów. Cały ładunek będzie składał się z siedmiu czujników:
+						</br>
+						</p>
+						<h2>
+						- temperatury</br>
+						- ciśnienia</br>
+						- wilgotności powietrza</br>
+						- akcelerometru</br>
+						- magnetometru</br>
+						- natężenia światła</br>
+						- zegaru czasu rzeczywistego</br>
+						</h2>
+						
+						<p style = "font-size:20px;">
+						O ile pierwsze sześć czujników będzie zbierać dane z otaczającego je świata o tyle ten ostatni będzie pełnił zgoła inną funkcję. Zadaniem zegara czasu rzeczywistego jest jak sama nazwa wskazuje, dokładne odliczanie czasu, który upłynął. Jest to bardzo ważna funkcja, która w sposób bezpośredni będzie wpływać na zapis danych jak i dokonywanie pomiarów. Wszystkie czujniki zostaną podpięte do mózgu, który będzie nimi zarządzał. Tym mózgiem będzie mikroprocesor. Będzie on odpowiedzialny za zarządzanie wszystkimi czujnikami, pobieraniem od nich danych a następie zapisywaniem. Co do zapisu danych postanowiłem wykorzystać w tym celu kartę SD. Cały proces zapisu danych, sczytywanych z czujników, składa się z dwóch części. Najpierw mikrokontroler komunikuje się z konkretnym czujnikiem, pobiera dane oraz zapisuje je w swojej własnej pamięci operacyjnej. Wszystkie dane z poszczególnych czujników są formułowane w jeden bufor czyli strukturę, która umożliwia ich przechowanie jako jedną całość. Gdy dane z wszystkich czujników zostaną zapisane w buforze, mikrokontroler rozpoczyna komunikację z kartą SD i zapisuje tam skompletowane dane. Po tej operacji pamięć zajmowana przez bufor na mikrokontrolerze jest zwalniana, stare dane są usuwane a mikrokontroler oczekuje na nowe dane. Wykorzystanie buforu, który będzie przechowywał i zapisywał w jednym cyklu wszystkie dane jest podyktowane dwoma aspektami: po pierwsze jak najbardziej ograniczyć pamięć potrzebną do przechowywania danych na sterującym mikrokontrolerze, po drugie zapisywać dane na kartę z jak najmniejszą częstotliwością. 
+						</br></br>
+						</p>
+						
+
+						
+						<table style="width:100%">
+						  <tr>
+							<th><img width = 95%  height = 10% src="images\Czujniki.jpg"></th>
+							<th><img width = 95% height = 10% src="images\Modul.jpg"></th> 
+							<th><img width = 95% height = 10% src="images\Atmega.jpg"></th>
+						  </tr>
+						  
+						  <tr>
+							<td><p style="text-align:center;">Niektóre z czujników użyte podczas tworzenia układu</p></td>
+							<td><p style="text-align:center;">Moduł karty SD potrzebny do zapisu danych na kartę SD.</p></td>
+							<td><p style="text-align:center;">A oto serce całego układu - mikroprocesor ATMEGA32</p></td>
+						  </tr>
+						  
+						  
+						</table>
+						
+						
+
+						<p style = "font-size:20px;">
+						Prototyp postanowiłem złożyć na płytce stykowej. Poza połączeniem elementów w spójną całość należało jeszcze zaprogramować każdy czujnik z osobna, oprogramować zapisywanie danych oraz zgrać wszystko ze sobą w czasie. Było to naprawdę ogromne wyzwanie i przysporzyło mi ono wielu cierpień :). To co przedstawia poniższe zdjęcie jest efektem długiej i ciężkiej pracy. Przedstawia ono w pełni kompletny i w pełni działający układ.
+						</br></br>
+						</p>
+						
+						<center><p> <img src="images/Prototyp.jpg" width = 50%  height = 10% /></p></center>
+						<tr>
+							<td><p style="text-align:center;">Prototyp złożony na płytce stykowej. Plątanina kabli nie do opisania :) </p></td>
+						  </tr>
+						
+						</br>
+						<p style = "font-size:20px;">
+						Oczywiście finalnie ładunek nie będzie wyglądał w ten sposób :). Jest to tylko wersja prototypowa ale została ona z powodzeniem przetestowana kilkukrotnie również w ujemnych temperaturach. Co do efektu testów nie mam żadnych zastrzeżeń, wszystko przebiegło perfekcyjnie :). Początkowe testy polegały wyłącznie na odczycie danych z częstotliwością co 10 sekund i przesyłaniem do komputera za pomocą UART-u i trwały do kilkunastu minut. Kolejne testy były coraz dłuższe i wymagające. Test finalny odbył się w bardzo zimnym środowisku, dane były zapisywane na kartę SD tak jak ma to docelowo wyglądać a cały test trwał 4h (oczywiście elementy które docelowo będą osłonięte od zewnętrznych warunków w środowisku testowym również taką ochronę otrzymały). Koniecznością było przetestowanie układu w takim środowisku ponieważ czujniki będą wystawione na bardzo niskie temperatury nawet do kilku godzin a ciśnienie panujące na zewnątrz będzie tylko ułamkiem tego co znajduje się przy powierzchni. W chwili obecnej jestem na etapie projektowania i zamawiania płytek na których zostaną przylutowane wszystkie elementy konieczne do poprawnej pracy układu. Dalsza część relacji już wkrótce, bądźcie na bieżąco i sprawdzajcie stronę :).
+						</p>
+						
+						<table style="width:100%">
+						  <tr>
+							<th><img width = 95%  height = 90% src="images\Dane zapis.jpg"></th>
+							<th><img width = 95% height = 95% src="images\SD dane.jpg"></th> 
+						  </tr>
+						  
+						  <tr>
+							<td><p style="text-align:center;">Dane z czujników przesłane na komputer z użyciem UART i wyświetlone w konsoli</p></td>
+							<td><p style="text-align:center;">Dane z czujników zapisane na karcie SD</p></td>
+						  </tr>
+						  
+						</table>
+						
+					
+						
+				</div>
+				
+		</div>
+
+</body>
+</html>
